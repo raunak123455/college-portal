@@ -53,7 +53,7 @@ export default function AgentDashboard() {
   const fetchApplications = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5001/api/applications/agent",
+        "https://college-portal-419x.onrender.com/api/applications/agent",
         {
           credentials: "include",
         }
