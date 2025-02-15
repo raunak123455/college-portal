@@ -58,7 +58,7 @@ export default function AdminDashboard() {
     const fetchApplications = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5001/api/applications/all",
+          "https://college-portal-419x.onrender.com/api/applications/all",
           {
             credentials: "include",
           }
