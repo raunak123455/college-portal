@@ -44,7 +44,7 @@ export function SignUpForm({ onSignupSuccess }: SignUpFormProps) {
       );
       console.log("With data:", formData);
 
-      const response = await fetch("http://localhost:5001/api/auth/signup", {
+      const response = await fetch("https://college-portal-419x.onrender.com/api/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
