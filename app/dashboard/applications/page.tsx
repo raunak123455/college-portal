@@ -44,7 +44,7 @@ export default function ApplicationTrackingPage() {
   useEffect(() => {
     const fetchApplications = async () => {
       try {
-        const response = await fetch("http://localhost:5001/api/applications", {
+        const response = await fetch("https://college-portal-419x.onrender.com/api/applications", {
           credentials: "include",
         });
 
