@@ -51,7 +51,7 @@ export default function ScholarshipsPage() {
   useEffect(() => {
     const fetchScholarships = async () => {
       try {
-        const response = await fetch("http://localhost:5001/api/scholarships", {
+        const response = await fetch("https://college-portal-419x.onrender.com/api/scholarships", {
           credentials: "include",
         });
 
