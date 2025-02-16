@@ -132,40 +132,7 @@ export default function StudentDashboard() {
           </Card>
         </div>
 
-        <Tabs defaultValue="applications" className="space-y-4">
-          <TabsList>
-            <TabsTrigger value="applications">Applications</TabsTrigger>
-            <TabsTrigger value="matches">College Matches</TabsTrigger>
-            <TabsTrigger value="scholarships">Scholarships</TabsTrigger>
-          </TabsList>
-          <TabsContent value="applications" className="space-y-4">
-            <div className="grid gap-4">
-              {/* Application cards would go here */}
-              <Card>
-                <CardHeader>
-                  <CardTitle>Stanford University</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex justify-between items-center">
-                    <div>
-                      <p className="text-sm text-muted-foreground">
-                        Application Status
-                      </p>
-                      <p className="font-medium">Under Review</p>
-                    </div>
-                    <Button variant="outline">View Details</Button>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-          </TabsContent>
-          <TabsContent value="matches">
-            {/* College matches content */}
-          </TabsContent>
-          <TabsContent value="scholarships">
-            {/* Scholarships content */}
-          </TabsContent>
-        </Tabs>
+      
       </div>
     </div>
   );
