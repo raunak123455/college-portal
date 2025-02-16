@@ -20,7 +20,7 @@ const app = express();
 // CORS configuration
 app.use(
   cors({
-    origin: "https://college-portal-livid.vercel.app/", // Your frontend URL
+    origin: "https://college-portal-livid.vercel.app", // Your frontend URL
     credentials: true, // Allow credentials
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
